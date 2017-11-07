@@ -7,7 +7,7 @@ The `$HTTP_RAW_POST_DATA` PHP global was deprecated in PHP 5.6 and removed in PH
 
 ## Resolution
 
-tk
+Replace with `file_get_contents( 'php://input' );`
 
 ## References
 
